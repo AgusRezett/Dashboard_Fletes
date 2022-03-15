@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.vertical {
+	width: 125px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+.vertical img {
+	width: 100px;
+	margin-top: 50px;
+}
+.vertical ul {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: column;
+}
+.vertical ul li {
+	width: 100%;
+	height: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.vertical ul li a {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #00a4b6;
+	transition: all 150ms ease-in-out;
+	text-decoration: none;
+}
+.vertical ul li a .fas {
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.horizontal {
+	flex-direction: row;
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	top: 0;
+}
+.horizontal img {
+	width: 100px;
+}
+.horizontal ul {
+	width: 50%;
+	height: auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: row;
+	list-style: none;
+}
+.horizontal ul li a {
+	padding: 5px 15px 5px 15px;
+	border: 1.5px solid #00a4b6;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	text-shadow: 1px 1px 3px #000000bd;
+	white-space: nowrap;
+}
+.horizontal ul li a .fas {
+	font-size: 14px;
+	margin-left: 7.5px;
+}
+.horizontal ul li:last-child a {
+	border: 1.5px solid #ff9736;
+}
+.horizontal ul li:last-child a:hover {
+	border-color: #faa75a;
+}
+
+nav {
+	background-color: #202a2b;
+	box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.604);
+	transition: all 100ms ease;
+}
+nav ul {
+	list-style: none;
+}
+nav ul li a {
+	color: #00a4b6;
+	transition: all 150ms ease-in-out;
+}
+nav ul li a:hover {
+	background-color: rgba(255, 255, 255, 0.022);
+	color: #01c1d6;
+	border-color: #00c9df;
+}
+nav ul li:last-child a {
+	color: #ff9736;
+}
+nav ul li:last-child a:hover {
+	background-color: #ffffff06;
+	color: #faa75a;
+}

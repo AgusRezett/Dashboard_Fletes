@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap");
+
+.App {
+	width: 100%;
+	height: 100vh;
+	background-image: url(http://localhost/fletes/assets/rosario_bsas.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.App .tg {
+	width: 90%;
+	height: auto;
+	max-height: 80%;
+	overflow-y: scroll;
+	margin-top: 100px;
+	border-collapse: collapse;
+	border-radius: 10px;
+}
+.App .tg thead tr th {
+	text-shadow: 1px 1px 5px black;
+	background-color: #2d393acb;
+	border: 1px solid #00a4b6;
+	color: #00f2ff;
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
+}
+.App .tg td {
+	text-shadow: 1px 1px 5px black;
+	background-color: #2d393acb;
+	border: 1px solid #00a4b6;
+	color: #ff9900;
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
+}
+.App .tg .tg-0lax {
+	text-align: center;
+	vertical-align: center;
+}
+
+.tg-0lax a {
+	cursor: default;
+}
+
+.tg-0lax a i {
+	margin: 0px 10px;
+	transition: all 100ms ease-in-out;
+	cursor: pointer;
+}
+
+.tg-0lax a .fa-trash {
+	color: #8a0000;
+}
+
+.tg-0lax a .fa-trash:hover {
+	color: #e90000;
+}
+
+.tg-0lax a .fa-pen {
+	color: #008200;
+}
+
+.tg-0lax a .fa-pen:hover {
+	color: #00dd00;
+}

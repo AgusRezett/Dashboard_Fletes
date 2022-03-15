@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap");
+.input-forms {
+	width: 90%;
+	margin-top: 100px;
+	height: calc(100% - 200px);
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	justify-items: center;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr) 2fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+.input-forms .formulario {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 90%;
+	background-color: #2a2b2c;
+	border: 1px solid #19191a;
+	border-radius: 5px;
+}
+.input-forms .formulario label {
+	width: 40%;
+	font-family: "Poppins";
+	text-shadow: -1px 1px 5px black;
+	text-align: center;
+	color: #a2c5d5;
+}
+.input-forms .formulario input {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-left: 1px solid #182424;
+	margin-bottom: 0 !important;
+	width: 60%;
+	align-self: center;
+	justify-self: center;
+	color: #f39200;
+	background-color: #2f4849;
+	transition: all 100ms ease-in-out;
+}
+.input-forms .formulario input:hover {
+	background-color: #3c5c5e;
+}
+.input-forms .formulario input:focus {
+	background-color: #3c5c5e;
+}
+.input-forms input[type="submit"],
+.input-forms input[type="reset"] {
+	text-shadow: 0px 0px 4px black;
+	width: 40%;
+	height: 45px;
+	font-family: "Poppins";
+	font-size: 15px;
+	font-weight: 600;
+	border: 1px solid #111312;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 150ms ease-in-out;
+}
+.input-forms #cancel {
+	color: #fff7f3;
+	background-color: #d74545;
+}
+.input-forms #cancel:hover {
+	background-color: #ed4e4e;
+}
+.input-forms #confirm {
+	color: #f6fff6;
+	background-color: #45d74a;
+}
+.input-forms #confirm:hover {
+	background-color: #4ceb51;
+}
